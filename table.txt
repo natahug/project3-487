@@ -1,0 +1,636 @@
+{
+  "data": [
+    [
+    "Food manufacturing",
+    "2017",
+    "784,153",
+    "520,966"
+  ],
+  [
+    "Beverage and tobacco product manufacturing",
+    "2017",
+    "155,715",
+    "122,729"
+  ],
+  [
+    "Textile mills",
+    "2017",
+    "27,905",
+    "19,411"
+  ],
+  [
+    "Textile product mills",
+    "2017",
+    "22,984",
+    "15,260"
+  ],
+  [
+    "Apparel manufacturing",
+    "2017",
+    "10,408",
+    "5,268"
+  ],
+  [
+    "Leather and allied product manufacturing",
+    "2017",
+    "4,808",
+    "2,282"
+  ],
+  [
+    "Wood product manufacturing",
+    "2017",
+    "107,606",
+    "52,297"
+  ],
+  [
+    "Paper manufacturing",
+    "2017",
+    "184,587",
+    "134,911"
+  ],
+  [
+    "Printing and related support activities",
+    "2017",
+    "80,901",
+    "36,784"
+  ],
+  [
+    "Petroleum and coal products manufacturing",
+    "2017",
+    "548,123",
+    "366,788"
+  ],
+  [
+    "Chemical manufacturing",
+    "2017",
+    "756,409",
+    "506,454"
+  ],
+  [
+    "Plastics and rubber products manufacturing",
+    "2017",
+    "237,455",
+    "155,086"
+  ],
+  [
+    "Nonmetallic mineral product manufacturing",
+    "2017",
+    "127,259",
+    "57,083"
+  ],
+  [
+    "Primary metal manufacturing",
+    "2017",
+    "220,958",
+    "154,616"
+  ],
+  [
+    "Fabricated metal product manufacturing",
+    "2017",
+    "344,743",
+    "187,360"
+  ],
+  [
+    "Machinery manufacturing",
+    "2017",
+    "356,613",
+    "221,805"
+  ],
+  [
+    "Computer and electronic product manufacturing",
+    "2017",
+    "310,162",
+    "193,199"
+  ],
+  [
+    "Electrical equipment, appliance, and component manufacturing",
+    "2017",
+    "122,360",
+    "81,132"
+  ],
+  [
+    "Transportation equipment manufacturing",
+    "2017",
+    "961,933",
+    "778,432"
+  ],
+  [
+    "Furniture and related product manufacturing",
+    "2017",
+    "74,469",
+    "41,785"
+  ],
+  [
+    "Miscellaneous manufacturing",
+    "2017",
+    "148,413",
+    "75,877"
+  ],
+  [
+    "Food manufacturing",
+    "2016",
+    "764,787",
+    "481,746"
+  ],
+  [
+    "Beverage and tobacco product manufacturing",
+    "2016",
+    "154,864",
+    "115,952"
+  ],
+  [
+    "Textile mills",
+    "2016",
+    "28,129",
+    "17,831"
+  ],
+  [
+    "Textile product mills",
+    "2016",
+    "24,736",
+    "14,673"
+  ],
+  [
+    "Apparel manufacturing",
+    "2016",
+    "10,513",
+    "5,939"
+  ],
+  [
+    "Leather and allied product manufacturing",
+    "2016",
+    "4,919",
+    "2,362"
+  ],
+  [
+    "Wood product manufacturing",
+    "2016",
+    "102,047",
+    "49,828"
+  ],
+  [
+    "Paper manufacturing",
+    "2016",
+    "181,667",
+    "128,073"
+  ],
+  [
+    "Printing and related support activities",
+    "2016",
+    "82,693",
+    "41,941"
+  ],
+  [
+    "Petroleum and coal products manufacturing",
+    "2016",
+    "430,329",
+    "257,085"
+  ],
+  [
+    "Chemical manufacturing",
+    "2016",
+    "723,271",
+    "445,218"
+  ],
+  [
+    "Plastics and rubber products manufacturing",
+    "2016",
+    "235,711",
+    "144,392"
+  ],
+  [
+    "Nonmetallic mineral product manufacturing",
+    "2016",
+    "123,230",
+    "56,925"
+  ],
+  [
+    "Primary metal manufacturing",
+    "2016",
+    "206,603",
+    "143,532"
+  ],
+  [
+    "Fabricated metal product manufacturing",
+    "2016",
+    "335,756",
+    "174,473"
+  ],
+  [
+    "Machinery manufacturing",
+    "2016",
+    "348,446",
+    "220,186"
+  ],
+  [
+    "Computer and electronic product manufacturing",
+    "2016",
+    "293,587",
+    "178,895"
+  ],
+  [
+    "Electrical equipment, appliance, and component manufacturing",
+    "2016",
+    "124,181",
+    "79,952"
+  ],
+  [
+    "Transportation equipment manufacturing",
+    "2016",
+    "949,275",
+    "793,902"
+  ],
+  [
+    "Furniture and related product manufacturing",
+    "2016",
+    "74,685",
+    "40,679"
+  ],
+  [
+    "Miscellaneous manufacturing",
+    "2016",
+    "155,267",
+    "76,044"
+  ],
+  [
+   "Food manufacturing",
+   "2015",
+    "774,132",
+   "474,998"
+  ],
+  [
+   "Beverage and tobacco product manufacturing",
+   "2015",
+    "154,688",
+   "112,779"
+  ],
+  [
+   "Textile mills",
+   "2015",
+    "29,385",
+   "18,305"
+  ],
+  [
+   "Textile product mills",
+   "2015",
+    "24,855",
+   "14,527"
+  ],
+  [
+   "Apparel manufacturing",
+   "2015",
+    "10,974",
+   "5,753"
+  ],
+  [
+   "Leather and allied product manufacturing",
+   "2015",
+    "4,991",
+   "2,204"
+  ],
+  [
+   "Wood product manufacturing",
+   "2015",
+    "97,718",
+   "43,855"
+  ],
+  [
+   "Paper manufacturing",
+   "2015",
+    "185,321",
+   "128,197"
+  ],
+  [
+   "Printing and related support activities",
+   "2015",
+    "81,049",
+   "39,643"
+  ],
+  [
+   "Petroleum and coal products manufacturing",
+   "2015",
+    "507,785",
+   "300,559"
+  ],
+  [
+   "Chemical manufacturing",
+   "2015",
+    "737,286",
+   "432,361"
+  ],
+  [
+   "Plastics and rubber products manufacturing",
+   "2015",
+    "236,525",
+   "142,196"
+  ],
+  [
+   "Nonmetallic mineral product manufacturing",
+   "2015",
+    "118,189",
+   "54,161"
+  ],
+  [
+   "Primary metal manufacturing",
+   "2015",
+    "228,434",
+   "153,866"
+  ],
+  [
+   "Fabricated metal product manufacturing",
+   "2015",
+    "349,061",
+   "180,289"
+  ],
+  [
+   "Machinery manufacturing",
+   "2015",
+    "377,547",
+   "236,733"
+  ],
+  [
+   "Computer and electronic product manufacturing",
+   "2015",
+    "299,145",
+   "179,685"
+  ],
+  [
+   "Electrical equipment, appliance, and component manufacturing",
+   "2015",
+    "125,435",
+   "79,404"
+  ],
+  [
+   "Transportation equipment manufacturing",
+   "2015",
+    "949,343",
+   "781,641"
+  ],
+  [
+   "Furniture and related product manufacturing",
+   "2015",
+    "73,946",
+   "39,740"
+  ],
+  [
+   "Miscellaneous manufacturing",
+   "2015",
+    "153,210",
+   "74,428"
+],
+[
+    "Food manufacturing",
+    "2014",
+    "793,831",
+    "467,112"
+  ],
+  [
+    "Beverage and tobacco product manufacturing",
+    "2014",
+    "147,010",
+    "102,220"
+  ],
+  [
+    "Textile mills",
+    "2014",
+    "31,308",
+    "18,329"
+  ],
+  [
+    "Textile product mills",
+    "2014",
+    "25,211",
+    "14,416"
+  ],
+  [
+    "Apparel manufacturing",
+    "2014",
+    "11,466",
+    "5,993"
+  ],
+  [
+    "Leather and allied product manufacturing",
+    "2014",
+    "5,132",
+    "1,911"
+  ],
+  [
+    "Wood product manufacturing",
+    "2014",
+    "94,924",
+    "40,379"
+  ],
+  [
+    "Paper manufacturing",
+    "2014",
+    "186,942",
+    "126,639"
+  ],
+  [
+    "Printing and related support activities",
+    "2014",
+    "81,629",
+    "38,364"
+  ],
+  [
+    "Petroleum and coal products manufacturing",
+    "2014",
+    "786,274",
+    "463,379"
+  ],
+  [
+    "Chemical manufacturing",
+    "2014",
+    "787,436",
+    "460,879"
+  ],
+  [
+    "Plastics and rubber products manufacturing",
+    "2014",
+    "234,392",
+    "134,889"
+  ],
+  [
+    "Nonmetallic mineral product manufacturing",
+    "2014",
+    "113,187",
+    "50,406"
+  ],
+  [
+    "Primary metal manufacturing",
+    "2014",
+    "265,425",
+    "172,340"
+  ],
+  [
+    "Fabricated metal product manufacturing",
+    "2014",
+    "357,478",
+    "177,055"
+  ],
+  [
+    "Machinery manufacturing",
+    "2014",
+    "403,848",
+    "249,857"
+  ],
+  [
+    "Computer and electronic product manufacturing",
+    "2014",
+    "302,049",
+    "170,665"
+  ],
+  [
+    "Electrical equipment, appliance, and component manufacturing",
+    "2014",
+    "126,450",
+    "74,065"
+  ],
+  [
+    "Transportation equipment manufacturing",
+    "2014",
+    "912,177",
+    "738,255"
+  ],
+  [
+    "Furniture and related product manufacturing",
+    "2014",
+    "69,659",
+    "35,349"
+  ],
+  [
+    "Miscellaneous manufacturing",
+    "2014",
+    "151,729",
+    "69,813"
+  ],
+  [
+    "Food manufacturing",
+    "2013",
+    "762,848",
+    "417,687"
+  ],
+  [
+    "Beverage and tobacco product manufacturing",
+    "2013",
+    "147,005",
+    "102,221"
+  ],
+  [
+    "Textile mills",
+    "2013",
+    "31,539",
+    "16,861"
+  ],
+  [
+    "Textile product mills",
+    "2013",
+    "22,889",
+    "12,710"
+  ],
+  [
+    "Apparel manufacturing",
+    "2013",
+    "12,053",
+    "4,618"
+  ],
+  [
+    "Leather and allied product manufacturing",
+    "2013",
+    "5,104",
+    "1,693"
+  ],
+  [
+    "Wood product manufacturing",
+    "2013",
+    "88,618",
+    "35,084"
+  ],
+  [
+    "Paper manufacturing",
+    "2013",
+    "185,895",
+    "116,715"
+  ],
+  [
+    "Printing and related support activities",
+    "2013",
+    "82,425",
+    "37,014"
+  ],
+  [
+    "Petroleum and coal products manufacturing",
+    "2013",
+    "852,802",
+    "487,594"
+  ],
+  [
+    "Chemical manufacturing",
+    "2013",
+    "785,616",
+    "426,671"
+  ],
+  [
+    "Plastics and rubber products manufacturing",
+    "2013",
+    "225,763",
+    "122,231"
+  ],
+  [
+    "Nonmetallic mineral product manufacturing",
+    "2013",
+    "106,182",
+    "45,860"
+  ],
+  [
+    "Primary metal manufacturing",
+    "2013",
+    "263,208",
+    "152,193"
+  ],
+  [
+    "Fabricated metal product manufacturing",
+    "2013",
+    "347,105",
+    "161,245"
+  ],
+  [
+    "Machinery manufacturing",
+    "2013",
+    "393,531",
+    "215,920"
+  ],
+  [
+    "Computer and electronic product manufacturing",
+    "2013",
+    "308,530",
+    "153,710"
+  ],
+  [
+    "Electrical equipment, appliance, and component manufacturing",
+    "2013",
+    "123,513",
+    "68,096"
+  ],
+  [
+    "Transportation equipment manufacturing",
+    "2013",
+    "841,010",
+    "640,709"
+  ],
+  [
+    "Furniture and related product manufacturing",
+    "2013",
+    "68,219",
+    "31,031"
+  ],
+  [
+    "Miscellaneous manufacturing",
+    "2013",
+    "155,889",
+    "65,833"
+  ]
+]
+
+
+}

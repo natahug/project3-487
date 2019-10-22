@@ -1,0 +1,25 @@
+.chart{
+  height:400px;
+
+}
+
+
+.half-chart{
+  height:400px;
+  width:45%;
+}
+#gender-description{
+  /* border: 1px black solid; */
+  display: flex;
+  align-items: center;
+}
+.row{
+  margin:50px;
+}
+p{
+  margin:30px;
+}
+h1{
+ float:center;
+}
+
