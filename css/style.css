@@ -31,6 +31,16 @@ h1{
 }
 .logo{
   text-align: center;
-  margin-top: 25px;
+  /* margin-top: 25px; */
+  /* position:fixed; */
+  z-index: 100;
+  margin: 0px auto;
+}
+.container-chart1{
+ 
+    width: 600px;
+
+    margin: 0px auto;
+    overflow: hidden;
 }
 
