@@ -1,8 +1,11 @@
+body{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
 .chart{
   height:400px;
 
 }
-
 
 .half-chart{
   height:400px;
@@ -20,6 +23,14 @@ p{
   margin:30px;
 }
 h1{
- float:center;
+  font-size: 30px;
+  margin: 80px;
+  margin-left: 25%;
+  margin-right: 25%;
+  text-align: center;
+}
+.logo{
+  text-align: center;
+  margin-top: 25px;
 }
 
