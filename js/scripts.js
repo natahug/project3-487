@@ -153,7 +153,7 @@ function buildChart(){
           },
         yAxis: {
           title: {
-            text: 'Value of E-commerce shipments'
+            text: 'Value of total shipments'
           }
       
         },
@@ -196,7 +196,7 @@ function buildChart(){
           plotShadow: false
         },
         title: {
-          text: 'Value<br>Shipment<br>Breakdown<br>2017',
+          text: 'Total<br>value<br>Shipment<br>Breakdown<br>2017',
           align: 'center',
           verticalAlign: 'middle',
           y: 60

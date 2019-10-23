@@ -22,19 +22,25 @@ body{
 p{
   margin:30px;
 }
-h1{
+h1, h4{
   font-size: 30px;
   margin: 80px;
-  margin-left: 27%;
+  margin-left: 28%;
   margin-right: 25%;
   text-align: left;
 }
+h4{
+  font-size: 25px;
+  margin-top:0;
+}
 .logo{
-  text-align: center;
-  /* margin-top: 25px; */
-  /* position:fixed; */
-  z-index: 100;
-  margin: 0px auto;
+  position: absolute;
+  left: 40%;
+
+}
+.leftPic{
+  position: absolute;
+  left: 20%;
 }
 .container-chart1{
  
@@ -48,5 +54,11 @@ h1{
   margin-left: 25%;
   margin-right: 25%;
   text-align: left;
+}
+.pic-container{
+  margin: 80px;
+  margin-left: 25%;
+  margin-right: 25%;
+  text-align: center;
 }
 
