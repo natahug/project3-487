@@ -25,9 +25,9 @@ p{
 h1{
   font-size: 30px;
   margin: 80px;
-  margin-left: 25%;
+  margin-left: 27%;
   margin-right: 25%;
-  text-align: center;
+  text-align: left;
 }
 .logo{
   text-align: center;
@@ -42,5 +42,11 @@ h1{
 
     margin: 0px auto;
     overflow: hidden;
+}
+.text-container{
+  margin: 80px;
+  margin-left: 25%;
+  margin-right: 25%;
+  text-align: left;
 }
 

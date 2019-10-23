@@ -1,20 +1,91 @@
-// $(document).ready(function() {
-//     $('#e-table').DataTable( {
-//         "ajax": 'data/table.txt',
 
-
-//     } );
-//     // buildChart();
-//     // loadData();
-// } );
-
+var data;
 var year = 1999;
+var manufacturing = [];
+var nine = [];
+var totalSeven = [];
+var twentyseventeen = [];
+var total = [];
+
+
+
+
+
 $(document).ready(function() {
     $('#example').DataTable( {
         "ajax": "table.txt"
     } );
+    
     buildChart();
+    loadData1();
+    loadData2();
 } );
+function loadData1(){
+    $.ajax({
+        type:"GET",
+        url:"table.json",
+        dataType:"text",
+        success: parseData1
+});
+}
+function loadData2(){
+    $.ajax({
+        type:"GET",
+        url:"table2.json",
+        dataType:"text",
+        success: parseData2
+});
+}
+function parseData1(data){
+    // console.log(data);
+    dataObj = $.parseJSON(data);
+     console.log(dataObj);
+
+    for (var i = 0; i < 21; i++) {
+        //sets data to arrays for charts
+        manufacturing.push(dataObj[i]["Manufacturing Industry"]);
+        
+       
+        if (dataObj[i]["Year"] == 1999) {
+        
+            nine.push(dataObj[i]["Value of shipments from E-commerce"]);
+            // console.log(twentyseventeen);
+            
+            
+        }
+         
+}
+buildChart(); 
+}
+function parseData2(data){
+    // console.log(data);
+    dataObj = $.parseJSON(data);
+     console.log(dataObj);
+
+    for (var i = 0; i < 21; i++) {
+        // //sets data to arrays for charts
+        // manufacturing.push(dataObj[i]["Manufacturing Industry"]);
+        
+       
+        if (dataObj[i]["Year"] == 2017) {
+        
+            twentyseventeen.push(dataObj[i]["Value of shipments from E-commerce"]);
+            totalSeven.push(dataObj[i]["Total value of shipments"]);
+            // console.log(twentyseventeen);
+            total[i] = twentyseventeen[i]/totalSeven[i]
+           
+            
+        }
+        
+         
+}
+
+buildChart(); 
+//console.log(total);
+
+}
+
+
 
 function buildChart(){
     Highcharts.chart('container-chart1', {
@@ -23,7 +94,7 @@ function buildChart(){
           inverted: true
         },
         title: {
-          text: 'Average fruit consumption during one week'
+          text: 'E-commerce shipment values from 1999 to 2017'
         },
         subtitle: {
           style: {
@@ -44,22 +115,15 @@ function buildChart(){
             Highcharts.defaultOptions.legend.backgroundColor || '#FFFFFF'
         },
         xAxis: {
-          categories: [
-            'Monday',
-            'Tuesday',
-            'Wednesday',
-            'Thursday',
-            'Friday',
-            'Saturday',
-            'Sunday'
-          ]
+          categories: manufacturing
         },
         yAxis: {
           title: {
-            text: 'Number of units'
+            text: 'Value of E-commerce shipments'
           },
-          allowDecimals: false,
-          min: 0
+          allowDecimals: true,
+          min: 5000,
+          max: 800000
         },
         plotOptions: {
           area: {
@@ -68,10 +132,10 @@ function buildChart(){
         },
         series: [{
           name: 'Value of E-commerce shipments in 1999',
-          data: [3, 4, 3, 5, 4, 10, 12]
+          data: nine
         }, {
           name: 'Value of E-commerce shipments in 2017',
-          data: [1, 3, 4, 3, 3, 5, 4]
+          data: twentyseventeen
         }]
       });
 
@@ -81,17 +145,15 @@ function buildChart(){
           type: 'column'
         },
         title: {
-          text: 'Browser market shares. January, 2018'
+          text: 'E-commerce across manufacturing industries'
         },
-        subtitle: {
-          text: 'Click the columns to view versions. Source: <a href="http://statcounter.com" target="_blank">statcounter.com</a>'
-        },
+        
         xAxis: {
-          type: 'category'
-        },
+            categories: manufacturing
+          },
         yAxis: {
           title: {
-            text: 'Total percent market share'
+            text: 'Value of E-commerce shipments'
           }
       
         },
@@ -115,266 +177,65 @@ function buildChart(){
       
         series: [
           {
-            name: "Browsers",
+            name: "Manufacturing Industries",
             colorByPoint: true,
-            data: [
-              {
-                name: "Chrome",
-                y: 62.74,
-                drilldown: "Chrome"
-              },
-              {
-                name: "Firefox",
-                y: 10.57,
-                drilldown: "Firefox"
-              },
-              {
-                name: "Internet Explorer",
-                y: 7.23,
-                drilldown: "Internet Explorer"
-              },
-              {
-                name: "Safari",
-                y: 5.58,
-                drilldown: "Safari"
-              },
-              {
-                name: "Edge",
-                y: 4.02,
-                drilldown: "Edge"
-              },
-              {
-                name: "Opera",
-                y: 1.92,
-                drilldown: "Opera"
-              },
-              {
-                name: "Other",
-                y: 7.62,
-                drilldown: null
-              }
-            ]
+            data: total
           }
-        ],
-        drilldown: {
-          series: [
-            {
-              name: "Chrome",
-              id: "Chrome",
-              data: [
-                [
-                  "v65.0",
-                  0.1
-                ],
-                [
-                  "v64.0",
-                  1.3
-                ],
-                [
-                  "v63.0",
-                  53.02
-                ],
-                [
-                  "v62.0",
-                  1.4
-                ],
-                [
-                  "v61.0",
-                  0.88
-                ],
-                [
-                  "v60.0",
-                  0.56
-                ],
-                [
-                  "v59.0",
-                  0.45
-                ],
-                [
-                  "v58.0",
-                  0.49
-                ],
-                [
-                  "v57.0",
-                  0.32
-                ],
-                [
-                  "v56.0",
-                  0.29
-                ],
-                [
-                  "v55.0",
-                  0.79
-                ],
-                [
-                  "v54.0",
-                  0.18
-                ],
-                [
-                  "v51.0",
-                  0.13
-                ],
-                [
-                  "v49.0",
-                  2.16
-                ],
-                [
-                  "v48.0",
-                  0.13
-                ],
-                [
-                  "v47.0",
-                  0.11
-                ],
-                [
-                  "v43.0",
-                  0.17
-                ],
-                [
-                  "v29.0",
-                  0.26
-                ]
-              ]
+        ]
+        
+          
+        
+      });
+
+
+      //chart 3
+      Highcharts.chart('container-chart3', {
+        chart: {
+          plotBackgroundColor: null,
+          plotBorderWidth: 0,
+          plotShadow: false
+        },
+        title: {
+          text: 'Value<br>Shipment<br>Breakdown<br>2017',
+          align: 'center',
+          verticalAlign: 'middle',
+          y: 60
+        },
+        tooltip: {
+          pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+        },
+        plotOptions: {
+          pie: {
+            dataLabels: {
+              enabled: true,
+              distance: -50,
+              style: {
+                fontWeight: 'bold',
+                color: 'white'
+              }
             },
+            startAngle: -90,
+            endAngle: 90,
+            center: ['50%', '75%'],
+            size: '110%'
+          }
+        },
+        series: [{
+          type: 'pie',
+          name: 'Top 5',
+          innerSize: '50%',
+          data: [
+            ['Traditional Commerce', 33.26],
+            ['E-commerce', 66.74],
+           
             {
-              name: "Firefox",
-              id: "Firefox",
-              data: [
-                [
-                  "v58.0",
-                  1.02
-                ],
-                [
-                  "v57.0",
-                  7.36
-                ],
-                [
-                  "v56.0",
-                  0.35
-                ],
-                [
-                  "v55.0",
-                  0.11
-                ],
-                [
-                  "v54.0",
-                  0.1
-                ],
-                [
-                  "v52.0",
-                  0.95
-                ],
-                [
-                  "v51.0",
-                  0.15
-                ],
-                [
-                  "v50.0",
-                  0.1
-                ],
-                [
-                  "v48.0",
-                  0.31
-                ],
-                [
-                  "v47.0",
-                  0.12
-                ]
-              ]
-            },
-            {
-              name: "Internet Explorer",
-              id: "Internet Explorer",
-              data: [
-                [
-                  "v11.0",
-                  6.2
-                ],
-                [
-                  "v10.0",
-                  0.29
-                ],
-                [
-                  "v9.0",
-                  0.27
-                ],
-                [
-                  "v8.0",
-                  0.47
-                ]
-              ]
-            },
-            {
-              name: "Safari",
-              id: "Safari",
-              data: [
-                [
-                  "v11.0",
-                  3.39
-                ],
-                [
-                  "v10.1",
-                  0.96
-                ],
-                [
-                  "v10.0",
-                  0.36
-                ],
-                [
-                  "v9.1",
-                  0.54
-                ],
-                [
-                  "v9.0",
-                  0.13
-                ],
-                [
-                  "v5.1",
-                  0.2
-                ]
-              ]
-            },
-            {
-              name: "Edge",
-              id: "Edge",
-              data: [
-                [
-                  "v16",
-                  2.6
-                ],
-                [
-                  "v15",
-                  0.92
-                ],
-                [
-                  "v14",
-                  0.4
-                ],
-                [
-                  "v13",
-                  0.1
-                ]
-              ]
-            },
-            {
-              name: "Opera",
-              id: "Opera",
-              data: [
-                [
-                  "v50.0",
-                  0.96
-                ],
-                [
-                  "v49.0",
-                  0.82
-                ],
-                [
-                  "v12.1",
-                  0.14
-                ]
-              ]
+            
+              dataLabels: {
+                enabled: false
+              }
             }
           ]
-        }
+        }]
       });
+      
 }

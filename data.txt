@@ -1,36 +1,253 @@
 {
-  "data": [
-    [
-      "Tiger Nixon",
-      "System Architect",
-      "Edinburgh",
-      "5421",
-      "2011/04/25",
-      "$320,800"
-    ],
-    [
-      "Garrett Winters",
-      "Accountant",
-      "Tokyo",
-      "8422",
-      "2011/07/25",
-      "$170,750"
-    ],
-    [
-      "Ashton Cox",
-      "Junior Technical Author",
-      "San Francisco",
-      "1562",
-      "2009/01/12",
-      "$86,000"
-    ],
-    [
-      "Donna Snider",
-      "Customer Support",
-      "New York",
-      "4226",
-      "2011/01/25",
-      "$112,000"
-    ]
-  ]
-}
+      "Manufacturing Industry": "Food manufacturing"
+      "Year": 1999
+      "Total value of shipments": "426000"
+      "Value of shipments from E-commerce": "45757"
+    },
+        {
+      "Manufacturing Industry": "Beverage and tobacco product manufacturing"
+      "Year": 1999
+      "Total value of shipments": "106920"
+      "Value of shipments from E-commerce": "35138"
+    },
+        {
+      "Manufacturing Industry": "Textile mills"
+      "Year": 1999
+      "Total value of shipments": "54306"
+      "Value of shipments from E-commerce": "6016"
+    },
+        {
+      "Manufacturing Industry": "Textile product mills"
+      "Year": 1999
+      "Total value of shipments": "32689"
+      "Value of shipments from E-commerce": "7284"
+    },
+        {
+      "Manufacturing Industry": "Apparel manufacturing"
+      "Year": 1999
+      "Total value of shipments": "62305"
+      "Value of shipments from E-commerce": "16485"
+    },
+        {
+      "Manufacturing Industry": "Leather and allied product manufacturing"
+      "Year": 1999
+      "Total value of shipments": "9653"
+      "Value of shipments from E-commerce": "2336"
+    },
+        {
+      "Manufacturing Industry": "Wood product manufacturing"
+      "Year": 1999
+      "Total value of shipments": "97311"
+      "Value of shipments from E-commerce": "4275"
+    },
+        {
+      "Manufacturing Industry": "Paper manufacturing"
+      "Year": 1999
+      "Total value of shipments": "156915"
+      "Value of shipments from E-commerce": "15312"
+    },
+        {
+      "Manufacturing Industry": "Printing and related support activities"
+      "Year": 1999
+      "Total value of shipments": "101536"
+      "Value of shipments from E-commerce": "7319"
+    },
+        {
+      "Manufacturing Industry": "Petroleum and coal products manufacturing"
+      "Year": 1999
+      "Total value of shipments": "162620"
+      "Value of shipments from E-commerce": "19881"
+    },
+        {
+      "Manufacturing Industry": "Chemical manufacturing"
+      "Year": 1999
+      "Total value of shipments": "420320"
+      "Value of shipments from E-commerce": "58827"
+    },
+        {
+      "Manufacturing Industry": "Plastics and rubber products manufacturing"
+      "Year": 1999
+      "Total value of shipments": "171885"
+      "Value of shipments from E-commerce": "27795"
+    },
+        {
+      "Manufacturing Industry": "Nonmetallic mineral product manufacturing"
+      "Year": 1999
+      "Total value of shipments": "96153"
+      "Value of shipments from E-commerce": "7282"
+    },
+        {
+      "Manufacturing Industry": "Primary metal manufacturing"
+      "Year": 1999
+      "Total value of shipments": "156647"
+      "Value of shipments from E-commerce": "15470"
+    },
+        {
+      "Manufacturing Industry": "Fabricated metal product manufacturing"
+      "Year": 1999
+      "Total value of shipments": "257072"
+      "Value of shipments from E-commerce": "29509"
+    },
+        {
+      "Manufacturing Industry": "Machinery manufacturing"
+      "Year": 1999
+      "Total value of shipments": "276901"
+      "Value of shipments from E-commerce": "48452"
+    },
+        {
+      "Manufacturing Industry": "Computer and electronic product manufacturing"
+      "Year": 1999
+      "Total value of shipments": "467059"
+      "Value of shipments from E-commerce": "65336"
+    },
+        {
+      "Manufacturing Industry": "Electrical equipment appliance and component manufacturing"
+      "Year": 1999
+      "Total value of shipments": "118313"
+      "Value of shipments from E-commerce": "27067"
+    },
+        {
+      "Manufacturing Industry": "Transportation equipment manufacturing"
+      "Year": 1999
+      "Total value of shipments": "676328"
+      "Value of shipments from E-commerce": "268667"
+    },
+        {
+      "Manufacturing Industry": "Furniture and related product manufacturing"
+      "Year": 1999
+      "Total value of shipments": "72659"
+      "Value of shipments from E-commerce": "7623"
+    },
+        {
+      "Manufacturing Industry": "Miscellaneous manufacturing"
+      "Year": 1999
+      "Total value of shipments": "108290"
+      "Value of shipments from E-commerce": "13732"
+    },
+
+    {
+      "Manufacturing Industry": "Food manufacturing"
+      "Year": 2013
+      "Total value of shipments": "762848"
+      "Value of shipments from E-commerce": "417687"
+    },
+        {
+      "Manufacturing Industry": "Beverage and tobacco product manufacturing"
+      "Year": 2013
+      "Total value of shipments": "147005"
+      "Value of shipments from E-commerce": "102221"
+    },
+        {
+      "Manufacturing Industry": "Textile mills"
+      "Year": 2013
+      "Total value of shipments": "31539"
+      "Value of shipments from E-commerce": "16861"
+    },
+        {
+      "Manufacturing Industry": "Textile product mills"
+      "Year": 2013
+      "Total value of shipments": "22889"
+      "Value of shipments from E-commerce": "12710"
+    },
+        {
+      "Manufacturing Industry": "Apparel manufacturing"
+      "Year": 2013
+      "Total value of shipments": "12053"
+      "Value of shipments from E-commerce": "4618"
+    },
+        {
+      "Manufacturing Industry": "Leather and allied product manufacturing"
+      "Year": 2013
+      "Total value of shipments": "5104"
+      "Value of shipments from E-commerce": "1693"
+    },
+        {
+      "Manufacturing Industry": "Wood product manufacturing"
+      "Year": 2013
+      "Total value of shipments": "88618"
+      "Value of shipments from E-commerce": "35084"
+    },
+        {
+      "Manufacturing Industry": "Paper manufacturing"
+      "Year": 2013
+      "Total value of shipments": "185895"
+      "Value of shipments from E-commerce": "116715"
+    },
+        {
+      "Manufacturing Industry": "Printing and related support activities"
+      "Year": 2013
+      "Total value of shipments": "82425"
+      "Value of shipments from E-commerce": "37014"
+    },
+        {
+      "Manufacturing Industry": "Petroleum and coal products manufacturing"
+      "Year": 2013
+      "Total value of shipments": "852802"
+      "Value of shipments from E-commerce": "487594"
+    },
+        {
+      "Manufacturing Industry": "Chemical manufacturing"
+      "Year": 2013
+      "Total value of shipments": "785616"
+      "Value of shipments from E-commerce": "426671"
+    },
+        {
+      "Manufacturing Industry": "Plastics and rubber products manufacturing"
+      "Year": 2013
+      "Total value of shipments": "225763"
+      "Value of shipments from E-commerce": "122231"
+    },
+        {
+      "Manufacturing Industry": "Nonmetallic mineral product manufacturing"
+      "Year": 2013
+      "Total value of shipments": "106182"
+      "Value of shipments from E-commerce": "45860"
+    },
+        {
+      "Manufacturing Industry": "Primary metal manufacturing"
+      "Year": 2013
+      "Total value of shipments": "263208"
+      "Value of shipments from E-commerce": "152193"
+    },
+        {
+      "Manufacturing Industry": "Fabricated metal product manufacturing"
+      "Year": 2013
+      "Total value of shipments": "347105"
+      "Value of shipments from E-commerce": "161245"
+    },
+        {
+      "Manufacturing Industry": "Machinery manufacturing"
+      "Year": 2013
+      "Total value of shipments": "393531"
+      "Value of shipments from E-commerce": "215920"
+    },
+        {
+      "Manufacturing Industry": "Computer and electronic product manufacturing"
+      "Year": 2013
+      "Total value of shipments": "308530"
+      "Value of shipments from E-commerce": "153710"
+    },
+        {
+      "Manufacturing Industry": "Electrical equipment appliance and component manufacturing"
+      "Year": 2013
+      "Total value of shipments": "123513"
+      "Value of shipments from E-commerce": "68096"
+    },
+        {
+      "Manufacturing Industry": "Transportation equipment manufacturing"
+      "Year": 2013
+      "Total value of shipments": "841010"
+      "Value of shipments from E-commerce": "640709"
+    },
+        {
+      "Manufacturing Industry": "Furniture and related product manufacturing"
+      "Year": 2013
+      "Total value of shipments": "68219"
+      "Value of shipments from E-commerce": "31031"
+    },
+        {
+      "Manufacturing Industry": "Miscellaneous manufacturing"
+      "Year": 2013
+      "Total value of shipments": "155889"
+      "Value of shipments from E-commerce": "65833"
+    },

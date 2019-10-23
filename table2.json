@@ -1,0 +1,128 @@
+[{
+    "Manufacturing Industry": "Food manufacturing",
+    "Year": 2017,
+    "Total value of shipments": 784153,
+    "Value of shipments from E-commerce": 520966
+  },
+  {
+    "Manufacturing Industry": "Beverage and tobacco product manufacturing",
+    "Year": 2017,
+    "Total value of shipments": 155715,
+    "Value of shipments from E-commerce": 122729
+  },
+
+  {
+    "Manufacturing Industry": "Textile mills",
+    "Year": 2017,
+    "Total value of shipments": 27905,
+    "Value of shipments from E-commerce": 19411
+  },
+      {
+    "Manufacturing Industry": "Textile product mills",
+    "Year": 2017,
+    "Total value of shipments": 22984,
+    "Value of shipments from E-commerce": 15260
+  },
+      {
+    "Manufacturing Industry": "Apparel manufacturing",
+    "Year": 2017,
+    "Total value of shipments": 10408,
+    "Value of shipments from E-commerce": 5268
+  },
+      {
+    "Manufacturing Industry": "Leather and allied product manufacturing",
+    "Year": 2017,
+    "Total value of shipments": 4808,
+    "Value of shipments from E-commerce": 2282
+  },
+      {
+    "Manufacturing Industry": "Wood product manufacturing",
+    "Year": 2017,
+    "Total value of shipments": 107606,
+    "Value of shipments from E-commerce": 52297
+  },
+      {
+    "Manufacturing Industry": "Paper manufacturing",
+    "Year": 2017,
+    "Total value of shipments": 184587,
+    "Value of shipments from E-commerce": 134911
+  },
+      {
+    "Manufacturing Industry": "Printing and related support activities",
+    "Year": 2017,
+    "Total value of shipments": 80901,
+    "Value of shipments from E-commerce": 36784
+  },
+      {
+    "Manufacturing Industry": "Petroleum and coal products manufacturing",
+    "Year": 2017,
+    "Total value of shipments": 548123,
+    "Value of shipments from E-commerce": 366788
+  },
+      {
+    "Manufacturing Industry": "Chemical manufacturing",
+    "Year": 2017,
+    "Total value of shipments": 756409,
+    "Value of shipments from E-commerce": 506454
+  },
+      {
+    "Manufacturing Industry": "Plastics and rubber products manufacturing",
+    "Year": 2017,
+    "Total value of shipments": 237455,
+    "Value of shipments from E-commerce": 155086
+  },
+      {
+    "Manufacturing Industry": "Nonmetallic mineral product manufacturing",
+    "Year": 2017,
+    "Total value of shipments": 127259,
+    "Value of shipments from E-commerce": 57083
+  },
+      {
+    "Manufacturing Industry": "Primary metal manufacturing",
+    "Year": 2017,
+    "Total value of shipments": 220958,
+    "Value of shipments from E-commerce": 154616
+  },
+      {
+    "Manufacturing Industry": "Fabricated metal product manufacturing",
+    "Year": 2017,
+    "Total value of shipments": 344743,
+    "Value of shipments from E-commerce": 187360
+  },
+      {
+    "Manufacturing Industry": "Machinery manufacturing",
+    "Year": 2017,
+    "Total value of shipments": 356613,
+    "Value of shipments from E-commerce": 221805
+  },
+      {
+    "Manufacturing Industry": "Computer and electronic product manufacturing",
+    "Year": 2017,
+    "Total value of shipments": 310162,
+    "Value of shipments from E-commerce": 193199
+  },
+      {
+    "Manufacturing Industry": "Electrical equipment appliance and component manufacturing",
+    "Year": 2017,
+    "Total value of shipments": 122360,
+    "Value of shipments from E-commerce": 81132
+  },
+      {
+    "Manufacturing Industry": "Transportation equipment manufacturing",
+    "Year": 2017,
+    "Total value of shipments": 961933,
+    "Value of shipments from E-commerce": 778432
+  },
+      {
+    "Manufacturing Industry": "Furniture and related product manufacturing",
+    "Year": 2017,
+    "Total value of shipments": 74469,
+    "Value of shipments from E-commerce": 41785
+  },
+      {
+    "Manufacturing Industry": "Miscellaneous manufacturing",
+    "Year": 2017,
+    "Total value of shipments": 148413,
+    "Value of shipments from E-commerce": 75877
+  }
+]
